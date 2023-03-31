@@ -277,13 +277,13 @@ console.log(employees.value.data);
               </tbody>
             </table>
 
-            <div
+            <!-- <div
               v-for="employee in employees.data.data"
               :key="employee.id"
               class="mb-3"
             >
               {{ employee }}
-            </div>
+            </div> -->
 
             <!-- <div v-for="employee in employees" :key="employee.id">
               <img :src="employee.profile_picture.url" :alt="employee.name" />
