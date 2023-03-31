@@ -221,22 +221,15 @@ console.log(employees.value.data);
                 </tr>
               </thead>
               <tbody>
-                <tr
-                  class="bg-pink-500"
-                  v-for="employee in employees.data.data"
-                  :key="employee.id"
-                >
+                <tr v-for="employee in employees.data.data" :key="employee.id">
                   <td class="bg-white p-3 text-sm text-gray-700">
                     <div class="flex">
                       <div class="img">
-                        <img
-                          class="w-10 h-10"
-                          :src="`data:image/png;base64,${btoa(
-                            employee.user.avatar
-                          )}`"
-                          alt=""
-                        />
+                        <img class="w-10 h-10" src="" alt="" />
                       </div>
+                      <!-- :src="`data:image/png;base64,${btoa(
+                            employee.user.avatar
+                          )}`" -->
                       <div class="">
                         <p class="font-normal">
                           {{ employee.user.first_name }}
