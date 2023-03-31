@@ -19,3 +19,7 @@ npm run dev
 or
 
 yarn run dev
+
+# Api Key
+
+In the project there's a .env_sample there so you'll convert the sample into the actual .env file and place your "token" in the specified field
